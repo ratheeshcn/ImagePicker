@@ -71,7 +71,7 @@ object FileUtil {
      */
     private fun getTimestamp(): String {
         val timeFormat = "yyyyMMdd_HHmmssSSS"
-        return SimpleDateFormat(timeFormat, Locale.getDefault()).format(Date())
+         return SimpleDateFormat(timeFormat, Locale.US).format(Date())
     }
 
     /**
